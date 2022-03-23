@@ -130,18 +130,29 @@
   padding-top: 0;
 }
 
+.work-text-parent {
+  display: flex;
+  padding-top: 90px;
+  padding-bottom: 70px;
+  justify-content: center;
+}
+
 .work-text {
-  font-size: 20px;
+  font-size: 22px;
   font-family: 'Lato', sans-serif;
   color: #333;
-  width: 600px;
+  width: 630px;
+  margin-right: 90px;
+  text-align: center;
+  line-height: 26px;
 }
 
 .Email {
   font-size: 12px;
   font-family: 'Raleway', sans-serif;
   padding: 14px 20px;
+  height: 14px;
   color: white;
   background-color: #74cfae;
-  float: right;
 }
+
