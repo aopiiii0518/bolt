@@ -19,23 +19,35 @@
   clear: both;
 }
 
-.size {
+.bolt_icon {
   font-size: 50px;
   color: #4e4e4e;
 }
 
+.Raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.Lato {
+  font-family: 'Lato', sans-serif;
+}
+
 .contact {
   font-size: 12px;
-  font-family: 'Raleway', sans-serif;
   padding: 14px 12px;
   color: white;
   background-color: #74cfae;
   float: right;
+  transition: 0.3s;
+}
+
+.contact:hover {
+  color: #333;
 }
 
 .title-inner {
   width: 100%;
-  height: 500px;
+  height: 100%;
   background-color: #f2f2f2;
   padding-top: 80px;
 }
@@ -48,25 +60,25 @@
 .child {
   display: table-cell;
   vertical-align: middle;
+  padding-top: 250px;
+  padding-bottom: 250px;
 }
 
 .theme-title {
   font-size: 90px;
   font-weight: 700;
-  font-family: 'Raleway', sans-serif;
   color: #74cfae;
   margin-bottom: 20px;
 }
 
 .theme-text {
   font-size: 30px;
-  font-family: 'Raleway', sans-serif;
   color: #c0c0c0;
 }
 
 .iphone {
   width: 100%;
-  height: 350px;
+  height: 100%;
   background-color: #74cfae;
   display: flex;
   justify-content: center;
@@ -85,13 +97,11 @@
 
 .iphone-title {
   font-size: 24px;
-  font-family: 'Raleway', sans-serif;
   padding-bottom: 32px;
 }
 
 .iphone-text {
   font-size: 20px;
-  font-family: 'Lato', sans-serif;
   width: 650px;
   line-height: 26px;
   word-break: break-all;
@@ -100,7 +110,6 @@
 .work-title {
   text-align: center;
   font-size: 24px;
-  font-family: 'Raleway', sans-serif;
   padding-top: 60px;
   padding-bottom: 40px;
   color: #333;
@@ -116,6 +125,12 @@
 .work-img {
   margin-left: 100px;
   padding-top: 80px;
+  transition: 0.3s;
+  opacity: 0.7;
+}
+
+.work-img:hover {
+  opacity: 1;
 }
 
 .work-img:nth-child(1) {
@@ -139,7 +154,6 @@
 
 .work-text {
   font-size: 22px;
-  font-family: 'Lato', sans-serif;
   color: #333;
   width: 630px;
   margin-right: 90px;
@@ -149,10 +163,93 @@
 
 .Email {
   font-size: 12px;
-  font-family: 'Raleway', sans-serif;
   padding: 14px 20px;
   height: 14px;
-  color: white;
+  color: #fff;
+  background-color: #74cfae;
+  transition:0.3s;
+}
+
+.Email:hover {
+  color: #333;
+}
+
+.skills {
+  width: 100%;
+  height: 100%;
+  background-color: #4e4e4e;
+}
+
+.skills-title {
+  font-size: 24px;
+  padding-top: 70px;
+  text-align: center;
+  color: #fff;
+}
+
+.skills-parent {
+  display: flex;
+  padding-top: 70px;
+  padding-bottom: 100px;
+  justify-content: center;
+}
+
+.skills-circle {
+  margin-left: 180px;
+  text-align: center;
+}
+
+.skills-circle:first-child {
+  margin-left: 0;
+}
+
+.skills-item {
+  color: #fff;
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+.skills-item:first-child {
+  margin-left: 0;
+}
+
+.sns-parent {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  justify-content: center;
+}
+
+.sns-box {
+  background-color: #f2f2f2;
+}
+
+.sns_icon {
+  font-size: 50px;
+  color: #74cfae;
+  width: 185px;
+  height: 60px;
+  padding: 20px 0;
+  text-align: center;
+  transition:0.3s;
+}
+
+.sns-box:hover {
+  background-color: #fff;
+}
+
+.footer {
+  width: 100%;
+  height: 60px;
   background-color: #74cfae;
 }
 
+.footer-text {
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  text-align: right;
+}
