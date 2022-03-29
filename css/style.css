@@ -46,19 +46,18 @@
   color: #333;
 }
 
+.main {
+  padding-top: 80px;
+}
+
 .title-parent {
   width: 100%;
   height: 100%;
   background-color: #f2f2f2;
-  display: table;
   text-align: center;
-}
-
-.title-child {
-  display: table-cell;
-  vertical-align: middle;
   padding-top: 250px;
   padding-bottom: 250px;
+  vertical-align: middle;
 }
 
 .theme-title {
@@ -77,16 +76,16 @@
   width: 100%;
   height: 100%;
   background-color: #74cfae;
+  padding-top: 50px;
 }
 
 .iphone-inner {
   display: flex;
   justify-content: center;
-  align-items: center
+  align-items: center;
 }
 
 .iphone-img{
-  padding-top: 57px;
   font-size:0;
 }
 
@@ -110,12 +109,13 @@
 
 .work {
   background-color: #f2f2f2;
+  padding-top: 60px;
+  padding-bottom: 70px;
 }
 
 .work-title {
   text-align: center;
   font-size: 24px;
-  padding-top: 60px;
   padding-bottom: 40px;
   color: #333;
 }
@@ -157,7 +157,6 @@
 .work-text-parent {
   display: flex;
   padding-top: 90px;
-  padding-bottom: 70px;
   justify-content: center;
 }
 
@@ -187,11 +186,12 @@
   width: 100%;
   height: 100%;
   background-color: #4e4e4e;
+  padding-top: 70px;
+  padding-bottom: 100px;
 }
 
 .skills-title {
   font-size: 24px;
-  padding-top: 70px;
   text-align: center;
   color: #fff;
 }
@@ -199,7 +199,7 @@
 .skills-parent {
   display: flex;
   padding-top: 70px;
-  padding-bottom: 100px;
+
   justify-content: center;
 }
 
@@ -222,18 +222,22 @@
   margin-left: 0;
 }
 
-.sns-parent {
+.sns {
   background-color: #f2f2f2;
-  width: 100%;
-  height: 100%;
-  display: flex;
   padding-top: 200px;
   padding-bottom: 200px;
+}
+
+.sns-parent {
+  /* width: 100%; */
+  height: 100%;
+  display: flex;
+
+  
   justify-content: center;
 }
 
 .sns-box {
-  background-color: #f2f2f2;
   transition:0.3s;
 }
 
@@ -252,13 +256,12 @@
 
 .footer {
   width: 100%;
-  height: 60px;
   background-color: #74cfae;
+  padding-top: 20px;
+  padding-bottom: 25px;
 }
 
 .footer-text {
   color: #fff;
-  padding-top: 20px;
-  padding-bottom: 25px;
   text-align: right;
 }
