@@ -6,6 +6,7 @@
   position: fixed;
   padding-top: 15px;
   padding-bottom: 15px;
+  z-index: 1;
 }
 
 .inner {
@@ -87,6 +88,7 @@
 
 .iphone-img{
   padding-top: 57px;
+  font-size:0;
 }
 
 .iphone-box {
@@ -105,6 +107,10 @@
   width: 650px;
   line-height: 26px;
   word-break: break-all;
+}
+
+.work {
+  background-color: #f2f2f2;
 }
 
 .work-title {
@@ -127,6 +133,7 @@
   padding-top: 80px;
   transition: 0.3s;
   opacity: 0.7;
+  display: inline-block;
 }
 
 .work-img:hover {
@@ -164,10 +171,10 @@
 .Email {
   font-size: 12px;
   padding: 14px 20px;
-  height: 14px;
   color: #fff;
   background-color: #74cfae;
   transition:0.3s;
+  display: inline-block;
 }
 
 .Email:hover {
@@ -225,6 +232,7 @@
 
 .sns-box {
   background-color: #f2f2f2;
+  transition:0.3s;
 }
 
 .sns_icon {
@@ -234,7 +242,6 @@
   height: 60px;
   padding: 20px 0;
   text-align: center;
-  transition:0.3s;
 }
 
 .sns-box:hover {
