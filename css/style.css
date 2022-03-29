@@ -6,7 +6,7 @@
   position: fixed;
   padding-top: 15px;
   padding-bottom: 15px;
-  z-index: 1;
+  z-index: 1000;
 }
 
 .inner {
@@ -33,16 +33,20 @@
   font-family: 'Lato', sans-serif;
 }
 
-.contact {
+.btn {
   font-size: 12px;
-  padding: 14px 12px;
-  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  color: #fff;
   background-color: #74cfae;
-  float: right;
-  transition: 0.3s;
+  transition:0.3s;
 }
 
-.contact:hover {
+.contact {
+  float: right;
+}
+
+.btn:hover {
   color: #333;
 }
 
@@ -142,16 +146,12 @@
   opacity: 1;
 }
 
-.work-img:nth-child(1) {
-  margin-left: 0;
-}
-
-.work-img:nth-child(4) {
+.work-img:nth-child(3n+1) {
   margin-left: 0;
 }
 
 .work-img:nth-child(-n+3) {
-  padding-top: 0;
+  margin-top: 0;
 }
 
 .work-text-parent {
@@ -171,16 +171,7 @@
 }
 
 .Email {
-  font-size: 12px;
-  padding: 14px 20px;
-  color: #fff;
-  background-color: #74cfae;
-  transition:0.3s;
   display: inline-block;
-}
-
-.Email:hover {
-  color: #333;
 }
 
 .skills {
@@ -229,12 +220,12 @@
 }
 
 .sns-parent {
-  height: 100%;
   display: flex;
   justify-content: center;
 }
 
-.sns-box {
+.sns-box{
+  display: inline-block;
   transition:0.3s;
 }
 
@@ -242,7 +233,6 @@
   font-size: 50px;
   color: #74cfae;
   width: 185px;
-  height: 60px;
   padding: 20px 0;
   text-align: center;
 }
