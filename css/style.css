@@ -252,3 +252,92 @@
   color: #fff;
   text-align: right;
 }
+
+/* TABレスポンシブ */
+/*画面幅が1199pxまでなら、変化させる*/
+@media screen and (max-width: 1199px) {
+
+  .inner {
+    width: 85%;
+  }
+
+  .d-block {
+    display: block;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .margin {
+    margin-left: 0;
+    padding-bottom: 25px;
+  }
+
+  .iphone-title {
+    margin-top: 20px;
+  }
+
+  .img-margin {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .work-img:nth-child(3n+1) {
+    margin-top: 80px;
+  }
+
+  .work-img:first-child {
+    margin-top: 0;
+  }
+
+  .work-text-tab {
+    margin-top: 80px;
+    text-align: center;
+  }
+
+  .text-margin {
+    margin-right: 0;
+  }
+
+  .Email-margin {
+    margin-top: 40px;
+  }
+
+  .skills-circle-margin {
+    margin-left: 0;
+    margin-top: 80px;
+  }
+
+  .skills-circle-margin:first-child {
+    margin-top: 0;
+  }
+}
+
+/* SPレスポンシブ */
+/*画面幅が767pxまでなら、変化させる*/
+@media screen and (max-width: 767px) {
+  .contact {
+    display: none;
+  }
+
+  .d-block {
+    display: block;
+  }
+
+  .iphone-text-sp {
+    overflow-wrap: break-word;
+  }
+
+  .sns-sp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
