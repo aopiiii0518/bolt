@@ -346,9 +346,17 @@
   }
 
   .sns-sp {
-    display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+  }
+
+  .sns-sp li {
+    display: block;
+  }
+
+  .sns_icon_sp {
+    width: 100%;
   }
 
   .sp-padding {
@@ -360,8 +368,8 @@
     display: block;
     float: right;
     padding: 10px;
-    width: 50px;
-    height: 40px;
+    width: 30px;
+    height: 20px;
     border: 1px solid #ddd;
     border-radius: 4px;
   }
@@ -377,8 +385,4 @@
   .btn-line:first-child {
     margin-top: 0;
   }
-}
-
-@media screen and (min-width:768px) {
-
 }
